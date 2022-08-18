@@ -28,7 +28,7 @@ class _State extends State<SignUp> {
             emailTextEditingController.text, passwordTextEditingController.text)
         .then((value) {
       // ignore: avoid_print
-      print("$value");
+      print("${value.uid}");
     });
   }
 
